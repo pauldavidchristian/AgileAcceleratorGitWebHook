@@ -1,0 +1,8 @@
+{
+    "username": "-------------------",
+    "password": "-------------------",
+    "token_key": "------------------",
+    "proxy": "public-proxy1-0-sfm.data.sfdc.net:8080",
+    "sender-email" : "no-reply@salesforce.com",
+    "smtp" : "rd-smtprelay-sfm.data.sfdc.net"
+}
