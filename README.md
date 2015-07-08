@@ -3,20 +3,18 @@ AgileAcceleratorGitWebHook
 
 ### Synopsis
 
-This script is meant to run as a service in SFM as receiver for git commit POSTs.  On each commit, a call is made to the GUS partner API. This call will generate a "change_list" object used to associate a code check with a GUS story or bug.
+This script is meant to run as a service to receive git commit POSTs.  On each commit, a call is made to the GUS partner API. This call will generate a "change_list" object used to associate a code check with a GUS story or bug.
 
 ### Dependences
 
-
-The service needs to run on a host where it can access your git server. This was developed in SFM against the git.soma server.
-
+The service needs to run on a host where it can access your git server. 
 
 Add dependent python modules need to be installed on the host. I recommend using python's "virtualenv" for this.
 
 ### General Setup
 
 *Setup and start the service*
-  1. git clone https://git.soma.salesforce.com/pchristian/AgileAcceleratorGitWebHook.git
+  1. git clone 'this repot'
   2. cd AgileAcceleratorGitWebHook
   3. Modify the properties.json file as necessary
   4. python changelist_service.py 
