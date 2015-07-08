@@ -3,7 +3,7 @@ AgileAcceleratorGitWebHook
 
 ### Synopsis
 
-This script is meant to run as a service to receive git commit POSTs.  On each commit, a call is made to the GUS partner API. This call will generate a "change_list" object used to associate a code check with a GUS story or bug.
+This script is meant to run as a service to receive git commit POSTs.  On each commit, a call is made to the Salesforce partner API. This call will generate a "change_list" object used to associate a code check with a Agile Accelerator User story or Bug.
 
 ### Dependences
 
@@ -49,8 +49,3 @@ I.e.
  RewriteEngine on 
  RewriteRule ^(.*) http://127.0.0.1:8080$1 [proxy]
 ````
-
-### ToDo
-
-
-Add in secrete key bits
